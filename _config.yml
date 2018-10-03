@@ -128,13 +128,13 @@ author:
     - label: "Steam"
       icon: "fas fa-fw fa-link"
       url: "yashketkar" # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
-    - label: "Bitbucket"
-      icon: "fas fa-fw fa-link"
-      url: "yashketkar"
     - label: "Codepen"
       icon: "fas fa-fw fa-link"
       url: "yashketkar"
     - label: "Soundcloud"
+      icon: "fas fa-fw fa-link"
+      url: "yashketkar"
+    - label: "flickr"
       icon: "fas fa-fw fa-link"
       url: "yashketkar"
 
