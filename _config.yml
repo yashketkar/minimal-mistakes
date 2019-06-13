@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme             : "mmistakes/minimal-mistakes@4.15.1"
+remote_theme             : "mmistakes/minimal-mistakes@4.15.2"
 minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -20,17 +20,17 @@ title                    : "Yash Ketkar"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Yash Ketkar"
-description              : "Blog and website of Yash Ketkar, which includes information about my background, education and experience, blogging mainly for tech. Opinions expressed are mine."
+description              : "This is my personal website and blog, which includes information about my background, education, and experience. Blogging mainly for tech, opinions expressed are mine."
 url                      : "https://yashketkar.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 # baseurl                  : "/minimal-mistakes" # the subpath of your site, e.g. "/blog"
 repository               : "yashketkar/yashketkar.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "disqus"  # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : "yashketkar" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -75,7 +75,7 @@ facebook:
   username               : "yashketkar"
   app_id                 :
   publisher              :
-og_image                 : "/assets/images/site-logo.png" # Open Graph/Twitter default site image
+og_image                 : "/assets/images/og-image.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -108,30 +108,21 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/yashketkar"
+    - label: "Codepen"
+      icon: "fab fa-fw fa-codepen"
+      url: "https://codepen.io/yashketkar"
+    - label: "Stack Overflow"
+      icon: "fab fa-fw fa-stack-overflow"
+      url: "https://stackoverflow.com/users/5896782/yashketkar"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/yashketkar"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/yashketkar"
-    - label: "Stack Overflow"
-      icon: "fab fa-fw fa-stack-overflow"
-      url: "https://stackoverflow.com/users/5896782/yashketkar"
-    - label: "Codepen"
-      icon: "fab fa-fw fa-codepen"
-      url: "https://codepen.io/yashketkar"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/yashketkar"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/yashketkar"
-    - label: "Steam"
-      icon: "fab fa-fw fa-steam-square"
-      url: "https://steamcommunity.com/id/yashketkar"
-    - label: "SoundCloud"
-      icon: "fab fa-fw fa-soundcloud"
-      url: "https://soundcloud.com/yashketkar"
 
 # Site Footer
 footer:
